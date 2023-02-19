@@ -1,0 +1,8 @@
+---
+applications:
+  - name: mynodeapp
+    instances: 1
+    path: ./mynodeapp/
+    random-route: true
+    memory: 128M
+    buildpack: nodejs_buildpack
